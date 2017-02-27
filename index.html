@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Cards</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Supermercado+One" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="action.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <div id="leftSide">
+        <h1>Enter Your Info:</h1>
+        <form>
+          <div>
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="first_name">
+          </div>
+          <div>
+            <label for="lName"> Last Name: </label>
+            <input type='text' id="lName" name="last_name">
+          </div>
+          <div id="contactMethod">
+            <label for="phone">Your Preferred Contact Info: </label>
+            <input type="text" id="contactInfo" name="contactInfo">
+          </div>
+          <div id="fact">
+            <label> Fun fact about you:</label>
+            <textarea id="factText"></textarea>
+        </div>
+           <input id="btn" type="submit" value="Click to Submit">
+        </form>
+      </div>
+
+      <div id="rightSide">
+        <h1> My Contacts </h1>
+        <div id="cardHolder">
+          <div class="contactCardsFRONT">
+              <p class="front" id="fNamePRINT"> Megan Roberts</p>
+              <p class="front" id="lNamePRINT"></p>
+              <p class="front" id="contactPRINT">The Internet</p>
+              <p class="back" id="pCardPRINT">I like to run</p>
+          </div>
+        </div>
+      </div>
+      </div>
+
+  </body>
+</html>
