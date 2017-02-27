@@ -1,0 +1,115 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+#container{
+  width: 970px;
+  height: auto;
+  background-color: gray;
+  display: inline-block;
+  padding: 20px;
+}
+#leftSide{
+  width: 450px;
+  height: 600px;
+  display: inline-block;
+  border: 5px solid ;
+  margin-right: 40px;
+  background-color: white;
+  border: 5px solid purple;
+}
+
+#rightSide{
+  width: 450px;
+  height: auto;
+  display: inline-block;
+  border: 5px solid ;
+  background-color: white;
+  vertical-align: top;
+  border: 5px solid purple;
+}
+h1{
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Supermercado One', cursive;
+}
+/*LEFT SIDE*/
+form{
+  width: 400px;
+  height:600px;
+  margin: 0px auto;
+  /*border: 1px solid green;*/
+  display: inline-block;
+}
+form div{
+  /*border: 1px solid blue;*/
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+form label{
+/*border: 1px solid blue;*/
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+}
+#fName, #lName {
+  width: 300px;
+  height: 20px;
+  margin-left: 20px;
+}
+#contactMethod{
+  width: 380px;
+  height: 100px;
+}
+#contactInfo{
+  height: 30px;
+  width: 300px;
+  font-size: 12px;
+  font-family: 'Lato', sans-serif;
+  color: gray;
+  margin-left: 20px;
+}
+
+#fact p{
+  font-family: 'Lato', sans-serif;
+}
+#fact textarea{
+  width: 300px;
+  height: 100px;
+  margin-left: 20px;
+}
+#btn{
+  margin-top: 30px;
+  margin-left: 40px;
+  background: gray;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  color: white;
+}
+
+/*RIGHT SIDE*/
+
+.contactCardsFRONT{
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  width: 400px;
+  height: 200px;
+  border: 2px solid gray;
+  margin: 15px auto;
+}
+.front{
+  text-align: center;
+  margin-top: 30px;
+  display: block;
+  visibility: visible;
+}
+
+.back{
+  display: none;
+  text-align: center;
+  margin-top: 30px;
+  display:none;
+  visibility: visible;
+}
